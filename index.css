@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.task {
+  position: relative;
+}
+
+.task-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* CONTENT */
+.task-feature > label {
+  display: contents;
+}
+
+.task-feature > input {
+  display: none;
+}
+
+/* EDITING */
+.task-feature__editing label {
+  display: none;
+}
+
+.task-feature__editing > input {
+  display: flex;
+}
+
+/* EXTRA */
+.box {
+  border: 1px solid black;
+}
